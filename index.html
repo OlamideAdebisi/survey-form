@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+</head>
+<body>
+    
+    <h1 id="title">Crochet class survey form</h1>
+    <p class="thanks">Thank you for taking time to help us improve the platform</p>
+    <div class="container">
+<form id="survey-form">
+   
+<label for="name" id="name-label">Name</label><input id="name" type="text" placeholder="Enter your name">
+   <label for="email" id="email-label">Email</label><input id="email" type="email" placeholder="Enter your email">
+   <label for="number" id="number-label">Age<span class="optional">(optional)</span></label><input id="number" type="number" placeholder="Age" min="18" max="50">
+<p>Which option best describes your current role</p>
+<select name="class" id="dropdown">
+    <option value="" disabled selected hidden>Select your current role</option>
+    <option value="student">Student</option>
+    <option value="student">Full time job</option>
+    <option value="student">Full time learner</option>
+    <option value="student">Prefer not to say</option>
+    <option value="student">Other</option>
+</select>
+<p>Would you recommend our class to a friend?</p>
+<label for="definitely"><input id="definitely" type="radio" name="definityly-maybe-not sure" value="Definitely">Definitely</label>
+<label for="maybe"><input id="maybe" type="radio" name="definitly-maybe-not sure" value="Maybe">Maybe</label>
+<label for="notsure"><input id="notsure" type="radio" name="definitly-maybe-not sure" value="Not sure">Not sure</label>
+<p>What is your favorite part of our crochet class?</p>
+
+<select id="dropdown" name="dropdown">
+  <option value=""disabled selected>Select an option</option>
+  <option value="Challenges">Weekly assignments</option>
+  <option value="Projects">End of the class projects</option>
+  <option value="Community">Community</option>
+  <option value="Open source">The environment</option>
+  <option value="Other">Other</option>
+  </select>
+  <p>What would you like to see improved? (Check all that apply)</p>
+  <label for="projects"><input id="improve" type="checkbox" name="Check all that apply" value="projects">Projects</label>
+  <label for="mode of teaching"><input id="improve" type="checkbox" name="Check all that apply" value="mode of teaching">Mode of teaching</label>
+  <label for="learning environment"><input id="improve" type="checkbox" name="Check all that apply" value="learning environment">Learning Environment</label>
+  <label for="community meet ups"><input id="improve" type="checkbox" name="Check all that apply" value="community meet ups">Community meet ups</label>
+  <label for="online classes"><input id="improve" type="checkbox" name="Check all that apply" value="online classes">Online classes</label>
+  <label for="additional courses"><input id="improve" type="checkbox" name="Check all that apply" value="additional courses">Additional courses</label>
+  <p>Any comments or suggestions on how we can improve the class?</p>
+  <textarea name="message" class="textarea" placeholder="Enter your comment here..."></textarea>
+  <input type="submit" class="submit">
+</form>
+</div>
+</body>
+</body>
+</html>
