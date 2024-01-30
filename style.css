@@ -1,0 +1,79 @@
+#title{
+    text-align: center
+}
+.thanks{
+    text-align: center;
+    font-style: italic;
+}
+.container{
+    margin: auto;
+    background: #D2B48C;
+    max-width: 600px;
+    padding: 20px;
+    border-radius: 6px;
+    
+}
+#name, #email, #number{
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    font-family: Arial;
+    margin: 10px 0;
+border-radius: 6px;
+border-width: thin;
+border: none;
+}
+p{text-align: left;}
+#dropdown{
+    display: inline-block;
+    width: 100%;
+    padding: 5px;
+}
+
+ label
+ {display: flex;
+padding: 5px;
+align-items: center;
+
+ }
+ #improve, #definitely, #maybe, #notsure{
+    display: inline-block;
+    padding: 10px;
+    min-height: 1.5rem;
+    min-width: 1rem;
+    margin-right: 10px;
+    
+ }
+ .textarea{
+    width: 600px;
+    min-height: 100px;
+    resize: vertical;
+    border-radius: 5px;
+ }
+ 
+
+ body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+   margin: 10px;
+   background-color: antiquewhite;
+}
+
+    .submit{
+        width: 100%;
+        margin: 10px 0;
+        padding: 10px;
+        border-radius: 5px;
+        border: none;
+        background-color: beige;
+        font-size: 1.15rem;
+        cursor: pointer;
+    }
+::placeholder{font-size: 1.13rem;
+    font-weight: lighter;
+    color:#AFB2B3;
+}
+.optional{
+    font-size: 0.8rem;
+}
